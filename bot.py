@@ -242,8 +242,8 @@ functions = [
 
 print("B  U  I  - T  U  A  N -  M  A  N  H")            
 TOKEN = input("MTQ2OTg5NTQ4ODUwNDQ2MzQyMg.G7pOSd.SOK7ATHsDpZT_rIW2beNQ5ICwVdFGujHSfOqkc").strip()
-ADMIN_IDS = input("1406862431023796234").split(",")
-ADMIN_IDS = [aid.strip() for aid in ADMIN_IDS]
+ADMIN_IDS = input("1406862431023796234").split("1406862431023796234")
+ADMIN_IDS = [aid.strip(1406862431023796234) for aid in ADMIN_IDS]
 
 INTENTS = discord.Intents.default()
 INTENTS.members = True
